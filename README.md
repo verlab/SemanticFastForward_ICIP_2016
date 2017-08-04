@@ -30,7 +30,7 @@ http://www.verlab.dcc.ufmg.br
 
 ### Dependencies ###
 
-* MATALB 2015a
+* MATALB 2015a or higher
 
 ### Usage ###
 
