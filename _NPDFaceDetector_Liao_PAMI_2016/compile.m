@@ -1,0 +1,1 @@
+mex NPDScan.cpp COMPFLAGS="/openmp $COMPFLAGS" CXXFLAGS='\$CXXFLAGS -fopenmp' -lgomp
