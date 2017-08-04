@@ -40,9 +40,9 @@ http://www.verlab.dcc.ufmg.br
 
 1. **Optical Flow Estimator:**
 
-    The first step processing is to estimate the Optical Flow of the Input VIdeo. 
+    The first step processing is to estimate the Optical Flow of the Input Video. 
 
-    1. First you should download the [Poleg et al. 2014](http://www.cs.huji.ac.il/~peleg/papers/cvpr14-egoseg.pdf) Flow Estimator code from the [link](http://www.vision.huji.ac.il/egoseg/EgoSeg1.2.zip).
+    1. First, you should download the [Poleg et al. 2014](http://www.cs.huji.ac.il/~peleg/papers/cvpr14-egoseg.pdf) Flow Estimator code from the [link](http://www.vision.huji.ac.il/egoseg/EgoSeg1.2.zip).
     2. Navigate to the download folder and unzip the code.
     3. Into the Vid2OpticalFlowCSV\Example folder, run the command:
 
