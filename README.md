@@ -142,7 +142,7 @@ function [videoFile, startInd, endInd, filename, fps] = GetVideoDetails(video_di
 
 ## Citation ##
 
-If you are using it to academic purpose, please cite: 
+If you are using it for academic purposes, please cite: 
 
 W. L. S. Ramos, M. M. Silva, , M. F. M. Campos, E. R. Nascimento, Fast-forward video based on semantic extraction, in: IEEE International Conference on Image Processing, Phoenix, AZ, 2016, pp. 3334-3338. doi:10.1109/ICIP.2016.7532977.
 
