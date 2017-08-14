@@ -1,6 +1,10 @@
+
+[![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg)](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction/#ICIP2016)
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
+
 # Project #
 
-This project is based on the paper [Fast-Forward Video Based on Semantic Extraction](http://www.verlab.dcc.ufmg.br/wp-content/uploads/2016/08/Final_Draft_ICIP_2016_Fast_Forward_Video_Based_on_Semantic_Extraction.pdf) on the **IEEE International Conference on Image Processing** (ICIP 2016). It implements a semantic fast-forward method for First-Person videos.
+This project is based on the paper [Fast-Forward Video Based on Semantic Extraction](http://www.verlab.dcc.ufmg.br/semantic-hyperlapse/papers/Final_Draft_ICIP_2016_Fast_Forward_Video_Based_on_Semantic_Extraction.pdf) on the **IEEE International Conference on Image Processing** (ICIP 2016). It implements a semantic fast-forward method for First-Person videos.
 
 For more information and visual results, please acess the [project page](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction).
 
@@ -144,7 +148,7 @@ function [videoFile, startInd, endInd, filename, fps] = GetVideoDetails(video_di
 
 If you are using it for academic purposes, please cite: 
 
-W. L. S. Ramos, M. M. Silva, , M. F. M. Campos, E. R. Nascimento, Fast-forward video based on semantic extraction, in: IEEE International Conference on Image Processing, Phoenix, AZ, 2016, pp. 3334-3338. doi:10.1109/ICIP.2016.7532977.
+W. L. S. Ramos, M. M. Silva, , M. F. M. Campos, E. R. Nascimento, **Fast-forward video based on semantic extraction**, in: -_IEEE International Conference on Image Processing_, Phoenix, AZ, 2016, pp. 3334-3338. doi:10.1109/ICIP.2016.7532977.
 
 ### Bibtex entry ###
 
