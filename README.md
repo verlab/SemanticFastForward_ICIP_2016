@@ -6,7 +6,7 @@
 
 This project is based on the paper [Fast-Forward Video Based on Semantic Extraction](http://www.verlab.dcc.ufmg.br/semantic-hyperlapse/papers/Final_Draft_ICIP_2016_Fast_Forward_Video_Based_on_Semantic_Extraction.pdf) on the **IEEE International Conference on Image Processing** (ICIP 2016). It implements a semantic fast-forward method for First-Person videos.
 
-For more information and visual results, please acess the [project page](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction).
+For more information and visual results, please access the [project page](http://www.verlab.dcc.ufmg.br/fast-forward-video-based-on-semantic-extraction).
 
 ## Contact ##
 
