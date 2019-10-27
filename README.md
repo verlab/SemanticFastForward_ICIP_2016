@@ -87,6 +87,7 @@ Vid2OpticalFlowCSV.exe -v < video_filename > -c < config.xml > -o < output_filen
 | `< Num_non_semantic_Frames >` | Number of frames in the Non-Semantic segments. | _Integer_ | `7643` |
 | `< Num_semantic_Frames >` | Number of frames in the Semantic segments. | _Integer_ | `12935` |
 | `< Desired_speedup >` | Desired speed-up rate to the whole video. | _Integer_ | `10` |
+| `< Max_speedup >` | Maximum allowed jump. | _Integer_ | `10` |
 | `< Lambda_1 >` | Value of Lambda 1 in the optimization function. | _Integer_ | `40` |
 | `< Lambda_2 >` | Value of Lambda 1 in the optimization function. | _Integer_ | `8` |
 | `< show_plot >` | Flag to show the search space create by the optimization function. | _Boolean_ | `false` |
