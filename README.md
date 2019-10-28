@@ -76,6 +76,24 @@ Vid2OpticalFlowCSV.exe -v < video_filename > -c < config.xml > -o < output_filen
 
 3. **Calculate Speed-up rates**
 
+    To calculate the speed-up rates for each type of segment, on the MATLAB console, go to the project folder and run the following commands:
+
+```matlab
+>> [~, < Num_non_semantic_Frames >, < Num_semantic_frames >] = GetSemanticRanges(< Semantic_Data_MAT_filename >);
+```
+
+| Parameters | Description | Type | Example | 			
+|--------:|-------------|------|--------|
+| `< Semantic_Data_MAT_filename >` | File created by the step 2 | _String_ | `'../example_face_extracted.mat'` |
+
+| Output | Description | Type | Example |			
+|--------:|-------------|------|--------|
+| `< Num_non_semantic_Frames >` | Number of frames in the Non-Semantic segments. (Will be used below.) | _Integer_ | `Tns` |
+| `< Num_semantic_Frames >` | Number of frames in the Semantic segments. (Will be used below.) | _Integer_ | `Ts` |
+
+
+4. **Calculate Speed-up rates**
+
     To calculate the speed-up rates for each type of segment, on the MATLAB console, go to the project folder and run the command:
 
 ```matlab
@@ -92,7 +110,7 @@ Vid2OpticalFlowCSV.exe -v < video_filename > -c < config.xml > -o < output_filen
 | `< Lambda_2 >` | Value of Lambda 1 in the optimization function. | _Integer_ | `8` |
 | `< show_plot >` | Flag to show the search space create by the optimization function. | _Boolean_ | `false` |
 
-4. **Create Experiment:** 
+5. **Create Experiment:** 
 
     To run the code, you should create an experiment entry. On a text editor, add a case to the `GetVideoDetails` function in the file `SemanticSequenceLibrary.m`:
 
